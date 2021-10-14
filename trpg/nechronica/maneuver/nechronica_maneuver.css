@@ -1,0 +1,181 @@
+/*===========================================*/
+
+/*============= Page Content ================*/
+a {
+  color: #2ba5be;
+}
+a.newpage {
+  color: #9d9d9d;
+}
+h1, h2, h3, h4, h5, h6, #page-title {
+  color: #272727;
+}
+.table {
+  padding: 0.5em 0;
+}
+[class^="tr"] {
+  position: relative;
+  display: flex;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+[class^="tr"]>div {
+  border-left: 1px solid;
+  padding: 0.5em;
+}
+[class^="tr"]+[class^="tr"] {
+  bottom: 1px;
+  border-top-width: 0;
+}
+.sup {
+  width: 40px;
+}
+.cate, .level, .part {
+  width: 90px;
+}
+.timing, .cost, .range {
+  width: 90px;
+}
+.maneuver {
+  font-size: 2em;
+}
+.chatpalette {
+  width: 100%;
+}
+.sup.esp {
+  background: #c8eff7;
+}
+.timing:before {
+  content: "T: ";
+}
+.cost:before {
+  content: "C: ";
+}
+.range:before {
+  content: "R: ";
+}
+.effect:before {
+  content: "効果: ";
+}
+.part:before {
+  content: "部位: ";
+}
+.level:before {
+  content: "Level: ";
+}
+.i_90 .level:before, .i_90 .part:before, .i_91 .level:before, .i_91 .part:before, .i_92 .level:before, .i_92 .part:before, .i_93 .level:before, .i_93 .part:before, .i_94 .level:before, .i_94 .part:before, .i_95 .level:before, .i_95 .part:before, .i_96 .level:before, .i_96 .part:before, .i_97 .level:before, .i_97 .part:before, .i_98 .level:before, .i_98 .part:before, .i_99 .level:before, .i_99 .part:before, .i_100 .level:before, .i_100 .part:before, .i_101 .level:before, .i_101 .part:before, .i_102 .level:before, .i_102 .part:before, .i_103 .level:before, .i_103 .part:before, .i_104 .level:before, .i_104 .part:before, .i_105 .level:before, .i_105 .part:before, .i_106 .level:before, .i_106 .part:before, .i_107 .level:before, .i_107 .part:before, .i_108 .level:before, .i_108 .part:before, .i_109 .level:before, .i_109 .part:before, .i_110 .level:before, .i_110 .part:before, .i_111 .level:before, .i_111 .part:before, .i_112 .level:before, .i_112 .part:before, .i_113 .level:before, .i_113 .part:before, .i_114 .level:before, .i_114 .part:before, .i_115 .level:before, .i_115 .part:before, .i_116 .level:before, .i_116 .part:before, .i_117 .level:before, .i_117 .part:before, .i_118 .level:before, .i_118 .part:before, .i_119 .level:before, .i_119 .part:before, .i_120 .level:before, .i_120 .part:before, .i_121 .level:before, .i_121 .part:before, .i_122 .level:before, .i_122 .part:before, .i_123 .level:before, .i_123 .part:before, .i_124 .level:before, .i_124 .part:before, .i_125 .level:before, .i_125 .part:before, .i_126 .level:before, .i_126 .part:before, .i_127 .level:before, .i_127 .part:before, .i_128 .level:before, .i_128 .part:before, .i_129 .level:before, .i_129 .part:before, .i_130 .level:before, .i_130 .part:before, .i_131 .level:before, .i_131 .part:before, .i_132 .level:before, .i_132 .part:before, .i_133 .level:before, .i_133 .part:before, .i_134 .level:before, .i_134 .part:before, .i_135 .level:before, .i_135 .part:before, .i_136 .level:before, .i_136 .part:before, .i_137 .level:before, .i_137 .part:before, .i_138 .level:before, .i_138 .part:before, .i_139 .level:before, .i_139 .part:before, .i_140 .level:before, .i_140 .part:before, .i_141 .level:before, .i_141 .part:before, .i_142 .level:before, .i_142 .part:before, .i_143 .level:before, .i_143 .part:before, .i_144 .level:before, .i_144 .part:before, .i_145 .level:before, .i_145 .part:before, .i_146 .level:before, .i_146 .part:before, .i_147 .level:before, .i_147 .part:before, .i_148 .level:before, .i_148 .part:before, .i_149 .level:before, .i_149 .part:before, .i_150 .level:before, .i_150 .part:before, .i_151 .level:before, .i_151 .part:before, .i_152 .level:before, .i_152 .part:before, .i_153 .level:before, .i_153 .part:before, .i_154 .level:before, .i_154 .part:before, .i_155 .level:before, .i_155 .part:before {
+  content: "";
+}
+textarea {
+  width: 99%;
+  height: 6em;
+  resize: none;
+}
+/*===========================================*/
+/*
+  Created by 7happy7
+  Source http://topia.wikidot.com/meta-title-search-jp
+  CC BY-SA 3.0
+*/
+/*============= Page Content ================*/
+
+
+::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    border-round: 0.5px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(50, 50, 50, 0.3);
+}
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+}
+.tgt {
+    border: 1px solid #aaa;
+    list-style: none;
+    overflow-x: scroll;
+    padding: 0.5em;
+    width: 100%;
+    word-break: break-all;
+}
+.meta:before {
+    content: " - ";
+}
+#page-content  {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 5em;
+}
+[name="q"], [name="key"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #aaa;
+    border-radius: .5em;
+    color: #b01;
+    display: block;
+    flex-grow: 1;
+    font-family: sans-serif;
+    font-size: 160%;
+    font-weight: bold;
+    margin: 0.5em;
+    max-width: 100%;
+    min-width: unset;
+    outline: none!important;
+    text-align: center;
+}
+.ruby, ruby {
+    display: inline-table;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 1;
+    height: 1em;
+    vertical-align: text-bottom;
+}
+.rt, rt {
+    display: table-header-group;
+    font-size: 0.6em;
+    line-height: 1.1;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/*============= =========== ================*/
+@media (max-width: 579px) {
+  textarea {
+    width: 99%;
+    height: 20vw;
+  }
+}
+#category_deepsearch {
+    display: block;
+    text-align: center;
+    padding: 1em;
+}
+#layer_deepsearch {
+    position: relative;
+    flex-direction: row;
+}
+.searchcategory {
+    display: flex;
+    flex-direction: column;
+}
+.trc pre {
+    display: none;
+}
+#page-content button {
+    width: 50%;
+    padding: 12px 0;
+    margin: auto;
+    color: #fff;
+    font-weight: bold;
+    background: #44b200;
+    border: solid 2px #44b200;
+    border-radius: 3px;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
